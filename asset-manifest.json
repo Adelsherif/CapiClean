@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CapiClean/static/css/main.96e9e95e.css",
+    "main.js": "/CapiClean/static/js/main.779b00ab.js",
+    "static/js/787.df7fe5a4.chunk.js": "/CapiClean/static/js/787.df7fe5a4.chunk.js",
+    "static/media/img-3.png": "/CapiClean/static/media/img-3.658f638bdb2f260550a8.png",
+    "static/media/img-1.png": "/CapiClean/static/media/img-1.dbf3b8148f21455ce3ae.png",
+    "static/media/img-2.png": "/CapiClean/static/media/img-2.e42576ec3694d602a8a1.png",
+    "static/media/img-5.png": "/CapiClean/static/media/img-5.c88282022e14dcea3054.png",
+    "static/media/banner-bg.png": "/CapiClean/static/media/banner-bg.e62c8b5508472cbc61ab.png",
+    "static/media/img-6.png": "/CapiClean/static/media/img-6.f65d6ec2d82deae05001.png",
+    "static/media/img-7.png": "/CapiClean/static/media/img-7.3b5aa01631d101bf1d8a.png",
+    "static/media/img-4.png": "/CapiClean/static/media/img-4.c0f7ded50022b412de2a.png",
+    "index.html": "/CapiClean/index.html",
+    "main.96e9e95e.css.map": "/CapiClean/static/css/main.96e9e95e.css.map",
+    "main.779b00ab.js.map": "/CapiClean/static/js/main.779b00ab.js.map",
+    "787.df7fe5a4.chunk.js.map": "/CapiClean/static/js/787.df7fe5a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96e9e95e.css",
+    "static/js/main.779b00ab.js"
+  ]
+}
