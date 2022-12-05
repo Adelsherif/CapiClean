@@ -1,0 +1,18 @@
+.team{margin-top: 60px;}
+.team .content{margin-top: 100px;}
+.team .content .member{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.team .content .member .text{width: 60%;}
+.team .content div:nth-child( even ) .image{order:2;}
+@media (max-width:776px){
+    .team .content .member{
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team .content div:nth-child( even ) .image{order:0 !important;}
+    .team .content .member .image img{width: 100%;}
+}

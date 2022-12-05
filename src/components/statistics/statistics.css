@@ -1,0 +1,48 @@
+.statistics{
+    background-color: #f9fafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.statistics .numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.statistics .numbers .box{
+    width: 23%;
+    line-height: 1;
+    border: 1px solid var(--blue);
+    padding-bottom: 5px;
+}
+.statistics .numbers .box h1{
+    color: var(--blue);
+    font-size: 40px;
+    line-height: .5;
+}
+.statistics .image img{
+    width: 100%;
+    margin-top: 60px;
+}
+.statistics .btn{
+    margin-top: 60px;
+    text-align: center;
+}
+.statistics .btn button{
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    transition: .5s;
+}
+.statistics .btn button:hover{background-color:#007bff;}
+@media (max-width:776px){
+    .statistics .numbers{flex-wrap: wrap;}
+    .statistics .numbers .box{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+}

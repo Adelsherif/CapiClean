@@ -1,0 +1,50 @@
+.home{
+    min-height: 100vh;
+    background-image: url('./images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.home .container{
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .container .text{line-height: 1;}
+.home .container .text h1,.home .text p,.home .text a{color: white;}
+.home .container .text h3{
+    font-size: 40px;
+    color: var(--black);
+}
+.home .container .text h1{font-size: 60px;}
+.home .container .text p{
+    width: 50%;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.home .container .text a{
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 5px 25px 10px ;
+    line-height: 3;
+}
+.home .container .text a:hover{
+    background-color: var(--black);
+    color: white;
+}
+.home .container .image{width: 40%;}
+.home .container .image img{width: 100%;}
+@media (max-width:776px){
+    .home .container{
+        padding-top: 120px;
+        flex-direction: column;
+    }
+    .home .container .image{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .home .container .text h1{font-size: 50px;}
+    .home .container .text p{width: 100%;}
+}

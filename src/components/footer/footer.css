@@ -1,0 +1,122 @@
+.footer .news{
+    background-color: #89cbeb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer .news .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .news .container .text{
+    line-height: 1;
+    color: white;
+}
+.footer .news .container .text h1{font-size: 35px;}
+.footer .news .container .form{width: 50%;}
+.footer .news .container .form form input{
+    width: 60%;
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+}
+.footer .news .container .form form button{
+    min-width: 25%;
+    border: none;
+    padding: 20px 20px;
+    background-color: var(--black);
+    color: white;
+}
+.footer .contact{
+    background-color: var(--black);
+    color: white;
+}
+.footer .contact .address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .contact .address h1{
+    width: 25%;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .contact .address h1 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer .contact .address ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contact .address ul li{width: 30%;}
+.footer .contact .address ul li a{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer .contact .address ul li a img{margin-right: 15px;}
+.footer .contact .register{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .contact .register .login{width: 40%;}
+.footer .contact .register .login input:not([type="submit"]),textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.footer .contact .register .login input[type="submit"]{
+    font-size: 16px;
+    background-color: #89cbeb;
+    color: var(--black);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+}
+.footer .contact .register .map{width: 48%;}
+.footer .contact .register .map ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .contact .register .map ul li{padding-right: 10px;}
+.footer .copyright p{text-align: center;}
+@media (max-width:992px){
+    .footer .news .container{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .footer .news .container .form{width: 100%;}
+    .footer .contact .address{flex-wrap: wrap;}
+    .footer .contact .address h1{width: 100%;}
+    .footer .contact .address ul{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:776px){
+.footer .news .container .form form button{padding:20px 10px;}
+    .footer .contact .address ul li{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .footer .contact .register .login{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .footer .contact .register .map{width: 100% !important;}
+}
